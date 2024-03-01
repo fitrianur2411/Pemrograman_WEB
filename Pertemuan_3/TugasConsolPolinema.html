@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat console</title>
+</head>
+<body>
+    <script>
+        document.write("buka console untuk melihat hasilnya")
+        const word = "polinema";
+        for (let i = 0; i < word.length; i++) {
+            let space ="";
+            for (let j = 0; j < word.length + i ; j++) {
+                space +=" ";
+            }
+            console.log(space + word[i]);
+        }
+    </script>
+</body>
+</html>
