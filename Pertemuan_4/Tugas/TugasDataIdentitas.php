@@ -1,6 +1,13 @@
 <?php
 echo "<hr>FITRIA NUR SHOLIKAH - SIB 2C<hr>";
 $TugasDataIdentitas = [
+    'Fitria Nur Sholikah'=>[
+        'Foto' => '<img src="foto.jpg" width="200" height="250"></img>',
+        'Nama' => 'Fitria Nur Sholikah',
+        'No.Telp' => '081234567',
+        'Alamat' => 'Jl.Ijen No.01',
+        'Jurusan' => 'Teknologi Informasi',
+    ],
     'Bright Vachirawit' => [
         'Foto' => '<img src="foto1.jpg" width="200" height="250"></img>',
         'Nama' => 'Bright Vachirawit',
@@ -18,7 +25,7 @@ $TugasDataIdentitas = [
 ];
 
 foreach ($TugasDataIdentitas as $nama => $detail) {
-    echo $detail['Foto'] . '<br><br>';
+    echo $detail['Foto'] . '<br>';
     echo 'Nama    : ' . $detail['Nama'] . '<br>';
     echo 'No. Telp: ' . $detail['No.Telp'] . '<br>';
     echo 'Alamat  : ' . $detail['Alamat'] . '<br>';
