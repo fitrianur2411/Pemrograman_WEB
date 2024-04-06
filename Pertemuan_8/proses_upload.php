@@ -3,7 +3,6 @@
     //Lokasi penyimpanan file yang diunggah
     $targetDirectory = "documents/";
 
-//UNTUK DOKUMEN 
     //periksa apakah direktori panyimpanan ada, jika tidak maka buat
     if (!file_exists($targetDirectory)) {
         mkdir($targetDirectory,0777,true);
