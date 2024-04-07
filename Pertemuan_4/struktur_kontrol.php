@@ -1,6 +1,7 @@
 <?php
+// Pemberian Nilai.
 $nilaiNumerik = 92;
-
+// penggunaan if-elseis-else.
 if ($nilaiNumerik >= 90 && $nilaiNumerik <= 100){
     echo "Nilai huruf: A";
 } elseif ($nilaiNumerik >= 80 && $nilaiNumerik < 90){
@@ -67,9 +68,9 @@ foreach ($nilaiSiswa as $nilai){
 
 echo "<br>";
 
-// SOAL NO 4.6
-echo "========================= Soal Cerita =========================<br>";
 
+echo "========================= Soal Cerita =========================<br>";
+// SOAL NO 4.6
 // Daftar nilai siswa
 $nilai = [85, 92, 78, 64, 90, 75, 88, 79, 70, 96];
 

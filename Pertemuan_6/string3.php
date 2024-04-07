@@ -2,7 +2,7 @@
 
 $pesan = "Saya arek malang";
 echo strrev($pesan). "<br>";
-echo "<hr>";
+echo"<hr>";
 
 $pesan = "saya arek malang";
 # ubah var $pesan menjadi array dengan perintah explode
