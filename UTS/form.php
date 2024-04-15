@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Formulir Pendaftaran Siswa Baru SMAN 1 MAGETAN</title>
-    <link href="form.css" rel="stylesheet">
+    <link href="style_form.css" rel="stylesheet">
     <script src ="jquery-3.7.1.js"></script>
     <script src ="jquery-ui-1.13.2/jquery-ui.js"></script>
     <script>
