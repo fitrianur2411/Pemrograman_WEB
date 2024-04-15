@@ -1,6 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-image: url(IMG/img1.jpg); 
+    background-size: cover;
 }
 
 .gambar IMG{
@@ -12,14 +15,14 @@ body {
 
 .wrap {
     width: 100%;
-    padding: 20px;
+    padding: 50px;
 }
 
 .container {
     width: 500px;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #15c7c1;
+    padding: 50px;
+    border: 3px solid #15c7c1;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -54,10 +57,6 @@ textarea {
 }
 
 select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 8'><polygon points='0,0 7,8 14,0'/></svg>") no-repeat scroll right center transparent;
     padding-right: 30px;
 }
 
@@ -79,9 +78,11 @@ input[type="submit"]:hover {
 }
 
 .copyright {
-    position: fixed;
+    position: center;
     bottom: 10px;
     left: 10px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
-    color: #999;
+    font-weight: bold;
+    color: #161726;
 }

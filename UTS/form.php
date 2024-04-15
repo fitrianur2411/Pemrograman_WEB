@@ -102,15 +102,16 @@
                 <textarea type="text" id="Alamat_orang Tua/Wali" name="alamat Orang Tua/Wali"></textarea><br>
                 
                 <!-- Tombol "Kirim" -->
-                <input type="submit" value="Kirim">
+                <input type="submit" value="Submit">
             </form>
         </div>
 
         <!-- Pesan sukses -->
         <div class="container" id="sukses_pendaftaran" style="display: none;">
             <h1><center>Selamat Pendaftaran Siswa Baru SMA Negeri 1 MAGETAN Telah Berhasil</center></h1>
+            <td><center>Tunggu Hasil Pengumuman diterima pada tanggal 22 Juni 2024</center></td>
         </div>
-        <div class="copyright">&copy; 2024 SMAN 1 MAGETAN</div>
+        <div class="copyright"><center>&copy; 2024 SMAN 1 MAGETAN</center></div>
 
     </div>
 </body>
