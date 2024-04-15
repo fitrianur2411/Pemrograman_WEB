@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Akun</title> 
+    <script src="proses_login.js"></script> 
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Warna latar belakang */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333; /* Warna teks utama */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .body {
+            width: 30%;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+        }
+
+        .gambar img {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px auto;
+            display: block;
+            
+        }
+
+        .Welcome {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .Welcome h1 {
+            color: #333;
+            margin: 0;
+        }
+
+        .Welcome h2 {
+            color: #666;
+            margin: 5px 0 0 0;
+        }
+
+        .form1 {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            background-color: #0056b3; /* Warna background saat dihover */
+        }
+
+        .tulisan {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            <div class="Welcome">
+                <h1>Pendaftaran Siswa Baru</h1>
+                <h2><i>SMA Negeri 1 Magetan</i></h2>
+            </div>
+            
+            <div class="gambar">
+                <img src="IMG/LOGO.png" alt="Logo">
+            </div>
+            
+            <div class="form1">   
+                <form method="POST" action="form.php">
+                    <div class="tulisan">
+                        <h4>Login Siswa Baru</h4> 
+                    </div>
+                    <i class='bx bxs-user-circle'></i>
+                    <input type="text" name="admin" id="admin" size="35" placeholder="Username" required> <br>
+                    <i class='bx bxs-lock'></i>
+                    <input type="password" name="input_password" class="input" id="input_password" size="35" placeholder="Password_NISN" required> <br>
+                    <input type="button" value="Login" class="submit-btn" onclick="index()">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
